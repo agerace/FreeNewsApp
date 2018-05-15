@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB25020920AB238C006770A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25020820AB238C006770A8 /* AppDelegate.swift */; };
+		FB25020B20AB238C006770A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25020A20AB238C006770A8 /* ViewController.swift */; };
+		FB25020E20AB238C006770A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25020C20AB238C006770A8 /* Main.storyboard */; };
+		FB25021020AB238F006770A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB25020F20AB238F006770A8 /* Assets.xcassets */; };
+		FB25021320AB238F006770A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25021120AB238F006770A8 /* LaunchScreen.storyboard */; };
+		FB25021E20AB238F006770A8 /* FreeNewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25021D20AB238F006770A8 /* FreeNewsAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB25021A20AB238F006770A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2501FD20AB238C006770A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB25020420AB238C006770A8;
+			remoteInfo = FreeNewsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB25020520AB238C006770A8 /* FreeNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB25020820AB238C006770A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB25020A20AB238C006770A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB25020D20AB238C006770A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB25020F20AB238F006770A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB25021220AB238F006770A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB25021420AB238F006770A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB25021920AB238F006770A8 /* FreeNewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeNewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB25021D20AB238F006770A8 /* FreeNewsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeNewsAppTests.swift; sourceTree = "<group>"; };
+		FB25021F20AB238F006770A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB25020220AB238C006770A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25021620AB238F006770A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2501FC20AB238C006770A8 = {
+			isa = PBXGroup;
+			children = (
+				FB25020720AB238C006770A8 /* FreeNewsApp */,
+				FB25021C20AB238F006770A8 /* FreeNewsAppTests */,
+				FB25020620AB238C006770A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB25020620AB238C006770A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB25020520AB238C006770A8 /* FreeNewsApp.app */,
+				FB25021920AB238F006770A8 /* FreeNewsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB25020720AB238C006770A8 /* FreeNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB25020820AB238C006770A8 /* AppDelegate.swift */,
+				FB25020A20AB238C006770A8 /* ViewController.swift */,
+				FB25020C20AB238C006770A8 /* Main.storyboard */,
+				FB25020F20AB238F006770A8 /* Assets.xcassets */,
+				FB25021120AB238F006770A8 /* LaunchScreen.storyboard */,
+				FB25021420AB238F006770A8 /* Info.plist */,
+			);
+			path = FreeNewsApp;
+			sourceTree = "<group>";
+		};
+		FB25021C20AB238F006770A8 /* FreeNewsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB25021D20AB238F006770A8 /* FreeNewsAppTests.swift */,
+				FB25021F20AB238F006770A8 /* Info.plist */,
+			);
+			path = FreeNewsAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB25020420AB238C006770A8 /* FreeNewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB25022220AB238F006770A8 /* Build configuration list for PBXNativeTarget "FreeNewsApp" */;
+			buildPhases = (
+				FB25020120AB238C006770A8 /* Sources */,
+				FB25020220AB238C006770A8 /* Frameworks */,
+				FB25020320AB238C006770A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeNewsApp;
+			productName = FreeNewsApp;
+			productReference = FB25020520AB238C006770A8 /* FreeNewsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB25021820AB238F006770A8 /* FreeNewsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB25022520AB238F006770A8 /* Build configuration list for PBXNativeTarget "FreeNewsAppTests" */;
+			buildPhases = (
+				FB25021520AB238F006770A8 /* Sources */,
+				FB25021620AB238F006770A8 /* Frameworks */,
+				FB25021720AB238F006770A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB25021B20AB238F006770A8 /* PBXTargetDependency */,
+			);
+			name = FreeNewsAppTests;
+			productName = FreeNewsAppTests;
+			productReference = FB25021920AB238F006770A8 /* FreeNewsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2501FD20AB238C006770A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = andresgerace;
+				TargetAttributes = {
+					FB25020420AB238C006770A8 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					FB25021820AB238F006770A8 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FB25020420AB238C006770A8;
+					};
+				};
+			};
+			buildConfigurationList = FB25020020AB238C006770A8 /* Build configuration list for PBXProject "FreeNewsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2501FC20AB238C006770A8;
+			productRefGroup = FB25020620AB238C006770A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB25020420AB238C006770A8 /* FreeNewsApp */,
+				FB25021820AB238F006770A8 /* FreeNewsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB25020320AB238C006770A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25021320AB238F006770A8 /* LaunchScreen.storyboard in Resources */,
+				FB25021020AB238F006770A8 /* Assets.xcassets in Resources */,
+				FB25020E20AB238C006770A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25021720AB238F006770A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB25020120AB238C006770A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25020B20AB238C006770A8 /* ViewController.swift in Sources */,
+				FB25020920AB238C006770A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25021520AB238F006770A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25021E20AB238F006770A8 /* FreeNewsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB25021B20AB238F006770A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB25020420AB238C006770A8 /* FreeNewsApp */;
+			targetProxy = FB25021A20AB238F006770A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB25020C20AB238C006770A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB25020D20AB238C006770A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB25021120AB238F006770A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB25021220AB238F006770A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB25022020AB238F006770A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB25022120AB238F006770A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB25022320AB238F006770A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FreeNewsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agerace.FreeNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB25022420AB238F006770A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FreeNewsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agerace.FreeNewsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB25022620AB238F006770A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FreeNewsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agerace.FreeNewsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeNewsApp.app/FreeNewsApp";
+			};
+			name = Debug;
+		};
+		FB25022720AB238F006770A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FreeNewsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agerace.FreeNewsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeNewsApp.app/FreeNewsApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB25020020AB238C006770A8 /* Build configuration list for PBXProject "FreeNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25022020AB238F006770A8 /* Debug */,
+				FB25022120AB238F006770A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB25022220AB238F006770A8 /* Build configuration list for PBXNativeTarget "FreeNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25022320AB238F006770A8 /* Debug */,
+				FB25022420AB238F006770A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB25022520AB238F006770A8 /* Build configuration list for PBXNativeTarget "FreeNewsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25022620AB238F006770A8 /* Debug */,
+				FB25022720AB238F006770A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB2501FD20AB238C006770A8 /* Project object */;
+}
