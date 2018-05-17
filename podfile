@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FreeNewsApp' do
+	pod 'Jayme'
+	pod 'SwiftyJSON'
+	pod 'SVProgressHUD'
+end
