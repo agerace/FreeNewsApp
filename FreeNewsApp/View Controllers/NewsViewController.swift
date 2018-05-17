@@ -53,7 +53,10 @@ class NewsViewController: UIViewController, UITableViewDelegate {
                 self.newsTableView.reloadData()
                 self.isLoadingMoreNews = news.isEmpty
             case .failure(_):
-                print ("failure")
+                SVProgressHUD.showError(withStatus: "An error ocurred, please try again later.")
+                SVProgressHUD.dismiss(withDelay: 2.5, completion: {
+                    self.navigationController?.popViewController(animated: true)
+                })
             }
         }
     }
