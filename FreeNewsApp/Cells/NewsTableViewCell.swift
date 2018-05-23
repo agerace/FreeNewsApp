@@ -26,6 +26,7 @@ class NewsTableViewCell: UITableViewCell {
             
         }
     }
+    
     @IBAction func openFullArticlePage(_ sender: UIButton) {
         UIApplication.shared.open(URL(string : self.news.articleUrl)!, options: [:], completionHandler: nil)
     }

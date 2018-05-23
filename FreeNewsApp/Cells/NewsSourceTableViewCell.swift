@@ -20,8 +20,8 @@ class NewsSourceTableViewCell: UITableViewCell {
             sourceUrlButton.setTitle(source.url, for: .normal)
         }
     }
+    
     @IBAction func openSourcePage(_ sender: UIButton) {
         UIApplication.shared.open(URL(string : self.source.url)!, options: [:], completionHandler: nil)
     }
-    
 }

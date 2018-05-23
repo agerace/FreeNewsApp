@@ -24,16 +24,16 @@ class NewsRepository {
                 pageInfo = page
                 return DataParser().dictionary(from: data)
             }
-            .andThen{ (dictionary: [AnyHashable:Any]) in
+            .andThen { (dictionary: [AnyHashable:Any]) in
                 let articles = dictionary["articles"] as! [[AnyHashable:Any]]
                 if pageInfo == nil {
                     pageInfo = PageInfo(number: pageNumber + 1, size: pageSize, total: dictionary["totalResults"] as! Int)
                 }
                 return EntityParser<News>().entities(from: articles)
             }
-            .map{ (entities: [News]) in
+            .map
+            { (entities: [News]) in
                 return (entities, pageInfo!)
-            }
+        }
     }
-
 }

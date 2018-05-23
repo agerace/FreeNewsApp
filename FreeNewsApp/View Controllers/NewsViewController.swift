@@ -66,5 +66,4 @@ class NewsViewController: UIViewController, UITableViewDelegate {
             self.retrieveNews(source: self.source.id)
         }
     }
-    
 }

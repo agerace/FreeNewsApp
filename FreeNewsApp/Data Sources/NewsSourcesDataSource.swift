@@ -22,13 +22,9 @@ class NewsSourcesDataSource: NSObject, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: Constants.NewsSourceCellIdentifier) as? NewsSourceTableViewCell {
-            cell.source = self.newsSources[indexPath.row]
-            return cell
-        }
-        let cell = Bundle.main.loadNibNamed(Constants.NewsSourceCellIdentifier, owner: self, options: nil)?.first as! NewsSourceTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.NewsSourceCellIdentifier) as! NewsSourceTableViewCell
         cell.source = self.newsSources[indexPath.row]
         return cell
+        
     }
-    
 }
