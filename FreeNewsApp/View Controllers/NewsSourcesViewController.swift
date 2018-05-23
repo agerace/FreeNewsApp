@@ -52,6 +52,4 @@ class NewsSourcesViewController: UIViewController, UITableViewDelegate {
         self.tryAgainButton.isHidden = true
         self.retrieveSources()
     }
-    
 }
-
